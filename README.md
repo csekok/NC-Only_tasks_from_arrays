@@ -21,6 +21,13 @@
   * Select File / New / Project from Version Control...
   * Enter the URL
   * Click on Clone button
+* Register on https://github.com/
+* In IntelliJ:
+  * Select File / Settings...
+  * Select Version Control / GitHub on the left
+  * Click on Add... icon
+  * Select Log In via GitHub... option
+  * Click on Authorize in GitHub button
 
 ## Project structure
 
