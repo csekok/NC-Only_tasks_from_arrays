@@ -12,7 +12,8 @@
     * export PATH=$JAVA_HOME/bin:$PATH
     
 * Download and install Git: https://git-scm.com/download/win
-* Download and install Maven: https://maven.apache.org/download.cgi
+* Download and install Maven (Binary): https://maven.apache.org/download.cgi
+* Unzip it into your Java directory
 * Download and install IntelliJ IDEA: https://www.jetbrains.com/idea/download/#section=windows
 * Clone this repository:
   * Click on green Clone button
