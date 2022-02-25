@@ -1,5 +1,7 @@
 package register;
 
+import java.util.Scanner;
+
 public class RegisterMain {
     /**
      * Task 0: Update the project:
@@ -16,6 +18,24 @@ public class RegisterMain {
      * Hint: Use psvm in IntelliJ
      * More templates in File / Settings / Editor / Live Templates
      */
+    public static void main(String[] args) {
+        User user = new User();
+        User anotherUser = new User( "Joe", 1990, "Main Street");
+        System.out.println(user.getName());
+        System.out.println(anotherUser.getName());
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Please give the name of user: ");
+        user.setName(scanner.nextLine());
+        System.out.print("Please give the birth year of user: ");
+        user.setBirthYear(Integer.parseInt(scanner.nextLine()));
+        System.out.print("Please give the address of user: ");
+        user.setAddress(scanner.nextLine());
+
+        System.out.println("The attributes of user variable:");
+        System.out.println(user.getName());
+        System.out.println(user.getBirthYear());
+        System.out.println(user.getAddress());
+    }
 
     /**
      * Task 2: Create a User class in register package.
