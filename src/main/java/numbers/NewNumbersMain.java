@@ -14,6 +14,27 @@ public class NewNumbersMain {
      * Create a generateArray method to generate a 1-dimensional array: 1 2 3 4 5
      * Call this method and print the return value in main.
      */
+    public static void main(String[] args) {
+        int[] array = generateArray();
+
+        System.out.println(array.length);
+        System.out.println(array);
+
+        System.out.println();
+
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i]);
+            if (i < array.length - 1) {
+                System.out.print(", ");
+            }
+        }
+    }
+
+    public static int[] generateArray() {
+        //int[] array = new int[5];
+        int[] array = {1, 2, 3, 4, 5};
+        return array;
+    }
 
     /**
      * Task 2: Add a random parameter to generateArray method:

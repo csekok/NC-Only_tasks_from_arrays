@@ -5,7 +5,7 @@ import junit.framework.TestCase;
 public class CircleTest extends TestCase {
     //TODO Before doing a task remove "/*" and "*/" in its test class (Shortcut: Crtl + Shift + /).
 
-    /*
+
     public void testGetRadiusOfUnitCircle() {
         double radius = 1;
         Circle circle = new Circle(radius);
@@ -40,5 +40,5 @@ public class CircleTest extends TestCase {
         double radius = 3.15;
         Circle circle = new Circle(radius);
         assertEquals(19.78, circle.getPerimeter(), 0.01);
-    }*/
+    }
 }
