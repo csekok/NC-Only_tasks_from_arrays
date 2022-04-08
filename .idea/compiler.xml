@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="NC-Only_tasks_from_arrays" />
         <module name="NC-PTIA1301-P" />
       </profile>
     </annotationProcessing>
